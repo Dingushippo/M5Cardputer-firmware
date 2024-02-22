@@ -17,3 +17,8 @@ jobs:
           esp_idf_version: v4.4.6
           target: esp32-s3
           path: '.'
+      - name: Upload 
+        uses: actions/upload-artifact@v4
+        with:
+          name: output-file
+          path: ${GITHUB_WORKSPACE}/build/output-file.bin
