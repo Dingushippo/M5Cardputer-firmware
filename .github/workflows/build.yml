@@ -15,5 +15,5 @@ jobs:
         uses: espressif/esp-idf-ci-action@v1
         with:
           esp_idf_version: latest
-          target: esp32
+          target: esp32-s3
           path: '.'
