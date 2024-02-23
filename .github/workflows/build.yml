@@ -21,4 +21,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cardputer binary
-          path: ${GITHUB_WORKSPACE}/build/cardputer.bin
+          path: /app/Dingushippo/M5Cardputer-firmware/build/cardputer.bin
